@@ -1,0 +1,58 @@
+name: forecast_project
+description: A new Flutter forecast project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.0.1
+  get_it: ^7.2.0
+  dio: ^4.0.6
+  flutter_svg: ^1.0.3
+  intl: ^0.17.0
+  hive: ^2.1.0
+  easy_localization: ^3.0.0
+  path_provider: ^2.0.10
+  connectivity_plus: ^2.3.0
+  cached_network_image: ^3.2.0
+  shared_preferences: ^2.0.14
+  flutter_spinkit: ^5.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/lang/
+
+  fonts:
+    - family: ABHAYABOLD
+      fonts:
+        - asset: assets/fonts/abhaya_bold.ttf
+    - family: ABHAYAREGULAR
+      fonts:
+        - asset: assets/fonts/abhaya_regular.ttf
+    - family: ABHAYAMEDIUM
+      fonts:
+        - asset: assets/fonts/abhaya_medium.ttf
+    - family: ABHAYASEMIBOLD
+      fonts:
+        - asset: assets/fonts/abhaya_semibold.ttf
+    - family: ABHAYAEXTRABOLD
+      fonts:
+        - asset: assets/fonts/abhaya_extrabold.ttf
